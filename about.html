@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <base href="/login/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=.85">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Web Page Blocked</title>
+    <link rel="stylesheet" href="css/latofonts.css">
+    <style>
+        body {
+            background-color: #eeeeee;
+            font-family: "Segoe UI", sans-serif;
+            font-size: 16px;
+            margin: 0;
+            color: #070808;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #eeeeee;
+        }
+
+        header img {
+            height: 50px;
+            width: auto;
+            display: block;
+            margin: 0 auto; /* Center the logo */
+            background: transparent;
+        }
+
+
+        .block-message {
+            background-color: #eeeeee;
+            border: 1px solid #e0e0e0; /* Defined edges */
+            padding: 20px;
+            margin: 20px auto;
+            width: 720px;
+            box-sizing: border-box;
+            border-radius: 4px; /* Rounded corners */
+            text-align: center;
+            font-family: "Segoe UI", sans-serif; /* "Segoe UI" font */
+            color: #4a4a4a; /* Dark gray color */
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            flex-wrap: wrap;
+        }
+
+
+        .block-message p {
+            font-family: "Segoe UI", sans-serif; /* "Segoe UI" font */
+            color: black;
+            font-size: 14px;
+        }
+
+        .block-message .helpdesk-hyperlink {
+            color: #76a54e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .block-message .helpdesk-hyperlink:hover {
+            text-decoration: underline;
+        }
+
+        .awareness-box {
+            background-color: #eeeeee;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 4px;
+            text-align: center;
+            width: 720px;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .awareness-box img {
+            height: 80px;
+            width: auto;
+            display: block;
+            margin: 0 auto; /* Center the logo */
+            background: transparent;
+        }
+
+
+        .awareness-box p {
+            font-family: "Segoe UI", sans-serif;
+            color: black;
+            margin-bottom: 20px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        .awareness-box h3 {
+            color: #cf2e2e;
+            font-family: "Segoe UI", sans-serif;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .learn-more-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #cf2e2e;
+            border: 2px solid lightgrey;
+            border-radius: 20px; /* Rounded edges for the button */
+            text-decoration: none;
+            font-family: "Segoe UI", sans-serif;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+            font-size: 12px;
+        }
+
+        .learn-more-button:hover {
+            background-color: #cf2e2e;
+            color: lightgrey; /* Light grey text on hover */
+        }
+
+        .response {
+            background-color: #eeeeee;
+            color: black;
+            margin: 20px auto;
+            padding: 20px;
+            font-size: 12px;
+            width: 720px;
+            box-sizing: border-box;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            flex-wrap: wrap;
+        }
+
+
+        .response p {
+            margin: 0 0 1em;
+            font-family: "Segoe UI", sans-serif; /* "Segoe UI" font */
+            color: black;
+            font-size: 14px;
+        }
+
+
+        .bottom-logos {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 80px;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #eeeeee;
+        }
+
+        .all-logos {
+            margin-bottom: 20px;
+            background: transparent;
+        }
+
+        #cyber-logo {
+            margin-bottom: 20px;
+            background: transparent;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <img src="https://grace.scene7.com/is/image/grace/Grace-logo-COLOR?fmt=png-alpha&dpr=on" alt="Grace Logo">
+</header>
+<div class="block-message">
+    <p>The website you are trying to reach has been blocked to keep you safe online.</p>
+    <p id="customMessage">If you require access to this site to perform your job function, please open a ticket with the <a href="https://g-force.grace.com/content/page/661809f44f572f488be1fbe2" target="_blank" class="helpdesk-hyperlink">IT HelpDesk</a>.</p>
+</div>
+
+
+<div class="awareness-box">
+    <p>As a reminder, use the <b>Phish Alert Button</b> to report suspicious emails directly to our team. The email will be safely removed from your inbox while we verify its legitimacy.</p>
+    <img src="https://grace.scene7.com/is/image/grace/phishing%20alert%20button?fmt=png-alpha&dpr=on" alt="Phishing Alert Logo">
+    <p>Remember to always report suspicious emails, even if you are unsure!</p>
+</div>
+<script type=""text/javascript">
+    var cat = "<category/>";
+    switch(cat) {
+        case 'artificial-intelligence':
+        case 'AI-writing-assistant':
+        case 'AI-conversational-assistant':
+        case 'AI-code-assistant':
+        case 'AI-data-and-workflow-optimizer':
+        case 'AI-platform-service':
+        case 'AI-website-generator':
+        case 'AI-media-service':
+        case 'AI-meeting-assistant':
+            text = `
+                <h3>Leveraging GenAI Tools Across Standard</h3> <br>
+                <p>The <b>Generative Artificial Intelligence Acceptable Use Policy("Policy")</b> outlines the rules and expectations for the acceptable use of GenAI tools by employees of Standard Industries, its subsidiaries and affiliates.</p> <br>
+                <p>Review the <b>Generative AI Acceptable Use Policy</b> by clicking below:</p> <br>
+                <a href="https://cybersecurity.standardindustries.com/generative-ai-policy/" target="_blank" class="learn-more-button">Learn More</a> <br>
+            `;
+            break;
+    }
+    document.getElementById("awareness-box").innerHTML = text;
+</script>
+
+<div class="response">
+    <p><b>User:</b> <user/></p>
+    <p><b>URL:</b> <url/></p>
+    <p><b>Category:</b> <category/></p>
+</div>
+
+<div class="bottom-logos">
+    <img class="cyber-logo" src="https://grace.scene7.com/is/image/grace/global_cybersecurity_logo?fmt=png-alpha&dpr=on" style="width:180px;height:auto;" alt="Global Cybersecurity Logo">
+
+    <img class="all-logos" src="https://grace.scene7.com/is/image/grace/standard%20opcos?fmt=png-alpha&dpr=on" style="width:420px;height:auto;" alt="Standard and Opcos">
+</div>
+
+</body>
+</html>
