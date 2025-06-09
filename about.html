@@ -187,8 +187,9 @@
 </div>
 <script type="text/javascript">
 
-    let cat = 'artificial-intelligence';
-    switch(cat) {
+    const urlCategory = 'artificial-intelligence';
+    const awarenessBox = document.querySelector(".awareness-box");
+    switch (urlCategory) {
         case 'artificial-intelligence':
         case 'AI-writing-assistant':
         case 'AI-conversational-assistant':
@@ -198,15 +199,14 @@
         case 'AI-website-generator':
         case 'AI-media-service':
         case 'AI-meeting-assistant':
-            text = `
-                <h3>Leveraging GenAI Tools Across Standard</h3> <br>
-                <p>The <b>Generative Artificial Intelligence Acceptable Use Policy("Policy")</b> outlines the rules and expectations for the acceptable use of GenAI tools by employees of Standard Industries, its subsidiaries and affiliates.</p> <br>
-                <p>Review the <b>Generative AI Acceptable Use Policy</b> by clicking below:</p> <br>
-                <a href="https://cybersecurity.standardindustries.com/generative-ai-policy/" target="_blank" class="learn-more-button">Learn More</a> <br>
+            awarenessBox.innerHTML = `
+                <h3>Leveraging GenAI Tools Across Standard</h3>
+                <p>The <b>Generative Artificial Intelligence Acceptable Use Policy("Policy")</b> outlines the rules and expectations for the acceptable use of GenAI tools by employees of Standard Industries, its subsidiaries and affiliates.</p>
+                <p>Review the <b>Generative AI Acceptable Use Policy</b> by clicking below:</p>
+                <a href="https://cybersecurity.standardindustries.com/generative-ai-policy/" target="_blank" class="learn-more-button">Learn More</a>
             `;
             break;
     }
-    document.getElementByClassName("awareness-box").innerHTML = text;
 </script>
 
 <div class="response">
